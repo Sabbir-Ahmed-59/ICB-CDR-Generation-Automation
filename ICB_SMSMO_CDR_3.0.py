@@ -21,17 +21,9 @@ Source_ID: source
 Tag: -v12
 """
 
+# Due to confidentiality, CDR fields/patterns it is kept hidden on purpose.
 middle_template = """
-NR;MCC;MNC;470;02
-200;505030624595160;8618845110270;;;88010086069;;;;;;20191227112806;1;0;;;;;
-201;1;;;FB1A;;;;;
-202;359458080795110;
-203;22;;;;;;;
-206;20191227112806;1
-300;E;Event: "MCCMNC","53","DATE-TIME.00",,,,,,,,,,,"8618845110270","8110086069",,,"1","1","E","460023467513101","359458080795110","4700227D9FB1A","8801801000038","TAPCODE","1",,,"","","HTFLE613-2756.dat","","","","",,
-210;;;;;;;;;
-226;
-225;"ROBI"
+Paste your sample CDR pattern here, replace the variables accordingly.
 """
 
 footer = """
