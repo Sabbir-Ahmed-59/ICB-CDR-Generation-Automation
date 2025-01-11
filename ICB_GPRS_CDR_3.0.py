@@ -21,7 +21,7 @@ Source_ID: source
 Tag: -v12
 """
 
-# Due to confidentiality, CDR fields/patterns it is kept hidden on purpose.
+# Due to confidentiality, CDR fields/patterns are kept hidden on purpose.
 middle_template = """
 Paste your sample CDR pattern here, replace the variables accordingly.
 """
