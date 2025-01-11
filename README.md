@@ -1,8 +1,8 @@
 # ICB-CDR-Generation-Automation
-This Python code creates a Graphical User Interface (GUI) for running Python scripts associated with ICB CDR generation using the tkinter module. Follow the SOP file to understand setup and installation process. Here's a summary of its functionality:
+This Python code creates a Graphical User Interface (GUI) for running Python scripts associated with **Interconnect Charging and Billing** (ICB) **Call Detail Record** (CDR) generation using the tkinter module. Follow the SOP file to understand setup and installation process. Here's a summary of its functionality:
 
 # Core Features:
-The GUI has buttons for running individual scripts (GPRS_CDR, SMSMO_CDR, VoiceMO_CDR, and VoiceMT_CDR).
+The GUI has buttons for running individual scripts (GPRS_CDR, SMSMO_CDR, VoiceMO_CDR, and VoiceMT_CDR). Where GPRS indicates data, MO means Mobile Originating (outgoing) and MT means Mobile Terminating (incoming).
 A "Master" button allows running all scripts sequentially.
 The subprocess module is used to execute scripts and handle any errors during their execution.
 
